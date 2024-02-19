@@ -4,6 +4,14 @@ import services.data as data
 
 # 打包
 # pip3 install pyinstaller
+# 
+# Mac 打包
+# ---------------------------------
+# python3 -m PyInstaller -i
+# main.py --clean
+# ---------------------------------
+#
+# Windows 打包
 # pyinstaller -F main.py --clean
 # pyinstaller -F -i 图标的地址.ico forum.py --clean
 # pyinstaller -F -i c:\Users\rockl\Documents\python_forum\bitbug_favicon.ico main.py --clean

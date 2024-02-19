@@ -1,0 +1,3 @@
+([('testApp',
+   '/Users/clank/Documents/Projects/python-project/dist/testApp',
+   'EXECUTABLE')],)
