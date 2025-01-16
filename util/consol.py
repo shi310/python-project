@@ -1,4 +1,4 @@
-from util import  path
+import util
 
 
 def error(message: str, log_path: str = ''):
@@ -13,7 +13,7 @@ def error(message: str, log_path: str = ''):
     # 没有处理的就不写入日志里
     # 处理总数量大于0为判定条件
     if not log_path == '':
-        path.write(log_path, message)
+        util.path.write(log_path, message)
 
 
 def log(message: str, log_path: str = ''):
@@ -29,7 +29,7 @@ def log(message: str, log_path: str = ''):
     # 没有处理的就不写入日志里
     # 处理总数量大于0为判定条件
     if not log_path == '':
-        path.write(log_path, message)
+        util.path.write(log_path, message)
 
 
 def succful(message: str, log_path: str = ''):
@@ -44,4 +44,4 @@ def succful(message: str, log_path: str = ''):
     # 没有处理的就不写入日志里
     # 处理总数量大于0为判定条件
     if not log_path == '':
-        path.write(log_path, message)
+        util.path.write(log_path, message)

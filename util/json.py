@@ -8,3 +8,8 @@ def read(path: str):
     file.close()
 
     return data
+
+
+def save(path: str, obj):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(obj, f, ensure_ascii=False)

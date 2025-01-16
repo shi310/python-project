@@ -1,5 +1,5 @@
 import os
-from util import  consol
+import util
 
 # os 拆分路径
 # 要拆分路径时, 也不要直接去拆字符串, 而要通过os.path.split()函数
@@ -11,15 +11,41 @@ from util import  consol
 # os.path.splitext('/path/to/file.txt')
 # >>> ('/path/to/file', '.txt')
 
+
 def join(join_target: str, path: str):
-    '''
-    ### 把一个路径加入到另一个路径里
+    """### 把一个路径加入到另一个路径里 ::
+
+        os.path.join(join_target, path)
+    
     - 前面的参数是要添加到目标路径
     - 后面的参数是添加到路径
-    '''
+    """
     return os.path.join(join_target, path)
 
-def split(path:str):
+def is_file(path: str):
+    """### 判断路径是否为文件 ::
+
+        os.path.isfile(path)
+    """
+    return os.path.isfile(path)
+
+def is_video(path: str):
+    """### 判断路径是否为文件 ::
+
+        os.path.isfile(path)
+    """
+
+    if is_file(path):
+        file_type = split(path)[-1].split('.')[-1]
+        if file_type in ['mov', 'mp4', 'mkv']:
+            return True
+        else:
+            return False
+    
+    return False
+
+
+def split(path: str):
     '''
     ### os 拆分路径
     - 要拆分路径时, 也不要直接去拆字符串, 而要通过os.path.split()函数
@@ -29,7 +55,8 @@ def split(path:str):
     '''
     return os.path.split(path)
 
-def splitext(path:str):
+
+def splitext(path: str):
     '''
     ### os.path.splitext() 可以直接让你得到文件扩展名
     - os.path.splitext('/path/to/file.txt')
@@ -37,7 +64,8 @@ def splitext(path:str):
     '''
     return os.path.splitext(path)
 
-def is_dir(path:str):
+
+def is_dir(path: str):
     return os.path.isdir(path)
 
 
@@ -48,7 +76,7 @@ def is_have(path: str, is_make: bool = False, log_path: str = ''):
     - 可以携带一个参数: is_make( 不存在的话是否创建一个 )
     '''
     log_content = '检查文件是否存在 ==> %s' % (path)
-    consol.log(log_content, log_path)
+    util.consol.log(log_content, log_path)
 
     _is_have = os.path.exists(path)
 
@@ -58,15 +86,15 @@ def is_have(path: str, is_make: bool = False, log_path: str = ''):
         log_content = '文件存在检查结果 ==> 不存在'
 
     if not _is_have and is_make:
-        consol.log(log_content, log_path)
+        util.consol.log(log_content, log_path)
         log_content = '正在创建一个文件 ==> %s' % (path)
-        consol.log(log_content, log_path)
+        util.consol.log(log_content, log_path)
 
         os.makedirs(path)
 
         _is_have = True
     else:
-        consol.log(log_content, log_path)
+        util.consol.log(log_content, log_path)
 
     return _is_have
 
@@ -118,7 +146,7 @@ def check(path: str, log_path: str = ''):
     '''
 
     log_content = '%s ==> 正在检查文件名称是否合法' % (path)
-    consol.log(log_content, log_path)
+    util.consol.log(log_content, log_path)
 
     path_children = _PathChildren()
 
@@ -129,26 +157,26 @@ def check(path: str, log_path: str = ''):
 
     if _path != path:
         log_content = '%s ==> 文件名称不合法,更改为 %s' % (path, _path)
-        consol.error(log_content, log_path)
+        util.consol.error(log_content, log_path)
 
         os.rename(path, _path)
     else:
         log_content = '%s ==> 文件名称合法' % (path)
-        consol.succful(log_content, log_path)
+        util.consol.succful(log_content, log_path)
 
     path_children.path = _path
 
     if os.path.isdir(_path):
         log_content = '%s ==> 这是一个文件夹,继续对文件夹里的文件进行检查' % (_path)
-        consol.log(log_content, log_path)
+        util.consol.log(log_content, log_path)
 
         old_children = os.listdir(_path)
         log_content = '%s ==> 文件夹包含的文件 %s' % (_path, old_children)
-        consol.log(log_content, log_path)
+        util.consol.log(log_content, log_path)
 
         for child in old_children:
             log_content = '%s ==> %s ==> 正在检查文件名称是否合法' % (_path, child)
-            consol.log(log_content, log_path)
+            util.consol.log(log_content, log_path)
 
             new_child = rename(child)
             old_child_path = os.path.join(_path, child)
@@ -160,26 +188,25 @@ def check(path: str, log_path: str = ''):
                     child,
                     new_child,
                 )
-                consol.log(log_content, log_path)
+                util.consol.log(log_content, log_path)
                 os.rename(old_child_path, new_child_path)
             else:
                 log_content = '%s ==> %s ==> 文件名称合法' % (_path, child)
-                consol.succful(log_content, log_path)
+                util.consol.succful(log_content, log_path)
 
             path_children.children.append(new_child_path)
     else:
-        log_content = '%s ==> 这是一个非文件夹' % (path, _path)
-        consol.log(log_content, log_path)
+        log_content = '%s ==> 这是一个非文件夹' % (_path)
+        util.consol.log(log_content, log_path)
 
-    log_content = '%s ==> 检查完成 %s' % (path_children.path, path_children.children)
-    consol.log(log_content, log_path)
+    log_content = '%s ==> 检查完成 %s' % (path_children.path,
+                                      path_children.children)
+    util.consol.log(log_content, log_path)
     return path_children
+
 
 class _PathChildren:
 
     def __init__(self, path: str = '', children: list[str] = []) -> None:
         self.path: str = path,
         self.children: list[str] = children
-
-def list_dir(path:str = ''):
-    return os.listdir(path)
