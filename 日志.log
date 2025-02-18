@@ -1,0 +1,914 @@
+开始运行脚本...
+你选择的工作目录是: 富贵钱包，对应的路径是: /Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包
+正在读取文件的内容 -> /Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "\u5bcc\u8d35\u94b1\u5305",
+        "package": "com.cgwallet.app.cgwallet100",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/wangfugui/Documents/Projects/wallet-flutter-app",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/wangfugui/Documents/Projects/wallet-flutter-app",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/wangfugui/Documents/Projects/wallet-flutter-app => /Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包/project
+未检测到 .gitignore 文件，将复制所有文件和文件夹。
+已完成从 /Users/wangfugui/Documents/Projects/wallet-flutter-app 到 /Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包/project
+发生错误: [Errno 2] No such file or directory: PosixPath('/Users/clank/Documents/Projects/python_project/flutter/works/富贵钱包/project')
+原始概率:   2       4       8       16      32      64      128     256     
+赔率重量:   1.6143  0.8430  0.4626  0.2874  0.2789  3.2667  0.6203  0.2367  
+概率结果:   0.2121  0.1108  0.0608  0.0378  0.0366  0.4293  0.0815  0.0311  
+期望结果:   0.4242  0.4432  0.4864  0.6048  1.1712  27.4752 10.4320 7.9616  
+概率总和: 1.0000
+期望总和: 48.9986
+原始概率:   2       4       8       16      32      64      128     256     
+赔率重量:   1.6143  0.8430  0.4626  0.2874  0.2789  3.2667  0.6203  0.2367  
+概率结果:   0.2121  0.1108  0.0608  0.0378  0.0366  0.4293  0.0815  0.0311  
+期望结果:   0.4242  0.4432  0.4864  0.6048  1.1712  27.4752 10.4320 7.9616  
+概率总和: 1.0000
+期望总和: 48.9986
+原始概率:   2       4       8       16      32      64      128     256     
+赔率重量:   1.6143  0.8430  0.4626  0.2874  0.2789  3.2667  0.6203  0.2367  
+概率结果:   0.2121  0.1108  0.0608  0.0378  0.0366  0.4293  0.0815  0.0311  
+期望结果:   0.4242  0.4432  0.4864  0.6048  1.1712  27.4752 10.4320 7.9616  
+概率总和: 1.0000
+期望总和: 48.9986
+原始赔率:   2       4       8       16      32      64      128     256     
+赔率重量:   1.6143  0.8430  0.4626  0.2874  0.2789  3.2667  0.6203  0.2367  
+概率结果:   0.2121  0.1108  0.0608  0.0378  0.0366  0.4293  0.0815  0.0311  
+期望结果:   0.4242  0.4432  0.4864  0.6048  1.1712  27.4752 10.4320 7.9616  
+概率总和: 1.0000
+期望总和: 48.9986
+开始运行脚本...
+你选择的工作目录是: panghu，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "\u5bcc\u8d35\u94b1\u5305",
+        "package": "com.cgwallet.app.cgwallet100",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/panghu => /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/panghu/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/panghu 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.cgwallet.app.cgwallet100
+发生错误: [Errno 2] No such file or directory: '/Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/shorebird.yaml'
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+开始运行脚本...
+你选择的工作目录是: panghu，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "\u5bcc\u8d35\u94b1\u5305",
+        "package": "com.cgwallet.app.cgwallet100",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/panghu => /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/panghu/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/panghu 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.cgwallet.app.cgwallet100
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/assets
+资源文件夹更新成功...
+正在更新 Android 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app
+源路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app/src/main/kotlin/com/example/client 不存在，跳过移动。
+发生错误: [Errno 2] No such file or directory: '/Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app/src/main/kotlin'
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+开始运行脚本...
+你选择的工作目录是: panghu，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "\u5bcc\u8d35\u94b1\u5305",
+        "package": "com.cgwallet.app.cgwallet100",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/panghu => /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/panghu/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/panghu 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.cgwallet.app.cgwallet100
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/assets
+资源文件夹更新成功...
+正在更新 Android 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app
+源路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app/src/main/kotlin/com/example/client 不存在，跳过移动。
+发生错误: [Errno 2] No such file or directory: '/Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/android/app/src/main/kotlin'
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+开始运行脚本...
+你选择的工作目录是: panghu，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/panghu => /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/panghu/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/panghu 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/ios
+project.pbxproj 已更新为 cgpp
+你选择的打包环境是: 测试环境，对应的环境值是: test
+你选择的打包环境是: 标准 Flutter 包，对应的类型是: BuildType.FLUTTER
+开始构建环境: test
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter pub get
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter pub get
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: pod install
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/ios
+命令运行完成: pod install
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter build ios --release --no-codesign --dart-define=ENVIRONMENT=test
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+命令运行完成: flutter build ios --release --no-codesign --dart-define=ENVIRONMENT=test
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner -configuration Release archive -archivePath /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/build/ios/archive/Runner.xcarchive -destination 'generic/platform=iOS'
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+发生错误: Command 'xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner -configuration Release archive -archivePath /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project/build/ios/archive/Runner.xcarchive -destination 'generic/platform=iOS'' returned non-zero exit status 65.
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+------------------------------------------------------------------------------------------------------------------------
+运行命令: source ~/.zshrc
+命令路径: None
+命令运行完成: source ~/.zshrc
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: source ~/.zshrc
+命令路径: None
+命令运行完成: source ~/.zshrc
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: source ~/.zshrc
+命令路径: None
+命令运行完成: source ~/.zshrc
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+运行命令: source ~/.zshrc
+命令路径: None
+命令运行完成: source ~/.zshrc
+------------------------------------------------------------------------------------------------------------------------
+开始运行脚本...
+你选择的工作目录是: 我的框架，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架/config.json
+文件的内容: {
+    "target": {
+        "name": "my_flutter_basic",
+        "flutter_name": "my_flutter_basic",
+        "title": "\u6211\u7684\u6846\u67b6",
+        "package": "com.project.my.flutter.basic",
+        "version": "",
+        "team": "N93BC5TDK8",
+        "profile": "20240723",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "247deaa7-af4a-4f28-b0b0-861725bf8a02"
+    },
+    "project": {
+        "path": "/Users/wangfugui/Documents/Projects/cgwallet",
+        "team": "N93BC5TDK8",
+        "profile": "20200806dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "20200806dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/wangfugui/Documents/Projects/cgwallet",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/wangfugui/Documents/Projects/cgwallet => /Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架/my_flutter_basic
+未检测到 .gitignore 文件，将复制所有文件和文件夹。
+已完成从 /Users/wangfugui/Documents/Projects/cgwallet 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架/my_flutter_basic 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架/my_flutter_basic
+发生错误: [Errno 2] No such file or directory: PosixPath('/Users/clank/Documents/Projects/Python/python_project/flutter/works/我的框架/my_flutter_basic')
+开始运行脚本...
+你选择的工作目录是: panghu，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/panghu",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/panghu => /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+未检测到 .gitignore 文件，将复制所有文件和文件夹。
+已完成从 /Users/clank/Documents/Projects/Flutter/panghu 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project
+发生错误: [Errno 2] No such file or directory: PosixPath('/Users/clank/Documents/Projects/Python/python_project/flutter/works/panghu/project')
+开始运行脚本...
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/king_game => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/king_game/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/king_game 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+删除旧项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在复制文件: /Users/clank/Documents/Projects/Flutter/king_game => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/king_game/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/king_game 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+1",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Downloads/client",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+删除旧项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在复制文件: /Users/clank/Downloads/client => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Downloads/client/.gitignore
+已完成从 /Users/clank/Downloads/client 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Downloads/client",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Downloads/client => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Downloads/client/.gitignore
+已完成从 /Users/clank/Downloads/client 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Downloads/client",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+删除旧项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在复制文件: /Users/clank/Downloads/client => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Downloads/client/.gitignore
+已完成从 /Users/clank/Downloads/client 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "",
+        "flutter_name": "",
+        "title": "",
+        "package": "",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Downloads/client",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+删除旧项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在复制文件: /Users/clank/Downloads/client => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Downloads/client/.gitignore
+已完成从 /Users/clank/Downloads/client 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 
+项目配置成功... {
+    "name": "",
+    "flutter_name": "client",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+4",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Downloads/client",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/assets
+资源文件夹更新成功...
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/project/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "king_game",
+        "flutter_name": "",
+        "title": "",
+        "package": "com.example.client",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/king_game => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/king_game/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/king_game 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.example.client
+项目配置成功... {
+    "name": "",
+    "flutter_name": "king_game",
+    "title": "king_game",
+    "package": "com.example.king_game",
+    "version": "1.0.0+1",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/assets
+资源文件夹更新成功...
+正在更新 Android 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app
+正在移动包路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app/src/main/kotlin/com/example/king_game -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app/src/main/kotlin/com/example/client
+资源文件路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/android 不存在，跳过资源文件更新。
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/ios
+project.pbxproj 已更新为 cgpp
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "king_game",
+        "flutter_name": "",
+        "title": "",
+        "package": "com.example.client",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+删除旧项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+正在复制文件: /Users/clank/Documents/Projects/Flutter/king_game => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/king_game/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/king_game 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.example.client
+项目配置成功... {
+    "name": "",
+    "flutter_name": "king_game",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+1",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/assets
+资源文件夹更新成功...
+正在更新 Android 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app
+目标路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app/src/main/kotlin/com/example/client 已存在，跳过移动。
+资源文件路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/android 不存在，跳过资源文件更新。
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/ios
+project.pbxproj 已更新为 cgpp
+你选择的打包环境是: 测试环境，对应的环境值是: test
+发生错误: 'NoneType' object is not subscriptable
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
