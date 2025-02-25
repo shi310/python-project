@@ -912,3 +912,71 @@ project.pbxproj 已更新为 cgpp
 你选择的打包环境是: 测试环境，对应的环境值是: test
 发生错误: 'NoneType' object is not subscriptable
 ✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+开始运行脚本...
+你选择的工作目录是: king_game，对应的路径是: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game
+正在读取文件的内容 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/config.json
+文件的内容: {
+    "target": {
+        "name": "king_game",
+        "flutter_name": "",
+        "title": "",
+        "package": "com.example.client",
+        "version": "",
+        "team": "FKT2MS2R6W",
+        "profile": "cgpp",
+        "signing": "iPhone Distribution",
+        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+    },
+    "project": {
+        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "team": "N93BC5TDK8",
+        "profile": "cgwalletAPNS_dev",
+        "signing": "iPhone Developer"
+    }
+}
+配置加载完成: {
+    "name": "",
+    "flutter_name": "",
+    "title": "",
+    "package": "",
+    "version": "",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在复制文件: /Users/clank/Documents/Projects/Flutter/king_game => /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+检测到 .gitignore 文件，按规则过滤：/Users/clank/Documents/Projects/Flutter/king_game/.gitignore
+已完成从 /Users/clank/Documents/Projects/Flutter/king_game 到 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game 的复制
+------------------------------------------------------------------------------------------------------------------------
+运行命令: flutter clean
+命令路径: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+命令运行完成: flutter clean
+------------------------------------------------------------------------------------------------------------------------
+ExportOptions.plist 包名已更新为 com.example.client
+项目配置成功... {
+    "name": "",
+    "flutter_name": "king_game",
+    "title": "King Game",
+    "package": "com.example.client",
+    "version": "1.0.0+1",
+    "team": "N93BC5TDK8",
+    "profile": "cgwalletAPNS_dev",
+    "signing": "iPhone Developer",
+    "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+    "shorebird_id": ""
+}
+正在更新所有文件里的项目信息: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
+正在更新 YAML 文件...
+已更新YAML文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/pubspec.yaml
+正在更新资源文件 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/assets -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/assets
+资源文件夹更新成功...
+正在更新 Android 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app
+目标路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/android/app/src/main/kotlin/com/example/client 已存在，跳过移动。
+资源文件路径 /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/resource/android 不存在，跳过资源文件更新。
+正在更新 IOS 文件 -> /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game/ios
+project.pbxproj 已更新为 cgpp
+你选择的打包环境是: 测试环境，对应的环境值是: test
+发生错误: 'NoneType' object is not subscriptable
+✅ 已清理项目目录: /Users/clank/Documents/Projects/Python/python_project/flutter/works/king_game/king_game
