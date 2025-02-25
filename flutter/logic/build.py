@@ -85,10 +85,9 @@ def _rename_output_file(works_path: Path, project_path: Path, config: BuildConfi
     app_name = config.target.title or config.project.title
     app_version = config.target.version or config.project.version
     flutter_name = config.target.flutter_name or config.project.flutter_name
-    build_name = build_name = build_type.name.lower()
 
     old_file = works_path / f"{flutter_name}.{extension}"
-    new_file = works_path / f"{app_name}_{environment}_{build_name}_{app_version}.{extension}"
+    new_file = works_path / f"{app_name}_{environment}_{app_version}.{extension}"
 
     if old_file.exists():
         old_file.rename(new_file)

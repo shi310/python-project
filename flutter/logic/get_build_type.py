@@ -35,7 +35,7 @@ def run() -> BuildType:
     selected_build_type_name = answers['build_type']
     
     # 获取对应的 BuildType 枚举
-    selected_build_type = build_type_mapping.get(selected_build_type_name, BuildType.FLUTTER)
+    selected_build_type = build_type_mapping.get(selected_build_type_name)
     
     # 打印用户选择的类型
     consol.log(f"你选择的打包环境是: {selected_build_type_name}，对应的类型是: {selected_build_type}")
