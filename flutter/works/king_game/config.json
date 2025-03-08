@@ -1,19 +1,19 @@
 {
     "target": {
         "name": "king_game",
-        "flutter_name": "",
-        "title": "",
-        "package": "com.example.client",
+        "flutter_name": "king_game",
+        "title": "King Game",
+        "package": "com.flutter.king.game",
         "version": "",
-        "team": "FKT2MS2R6W",
-        "profile": "cgpp",
+        "team": "N93BC5TDK8",
+        "profile": "20240723",
         "signing": "iPhone Distribution",
-        "shorebird_id": "02aeddf3-f636-44c6-8683-e0dfc3a413b6"
+        "shorebird_id": "8e18dda8-0eb8-4ec1-bcc5-fa37910cec78"
     },
     "project": {
-        "path": "/Users/clank/Documents/Projects/Flutter/king_game",
+        "path": "/Users/wangfugui/Documents/Projects/king_game",
         "team": "N93BC5TDK8",
-        "profile": "cgwalletAPNS_dev",
+        "profile": "20200806dev",
         "signing": "iPhone Developer"
     }
 }

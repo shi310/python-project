@@ -4,6 +4,7 @@ class BuildType(Enum):
     FLUTTER_ALL = auto()
     FLUTTER_ANDROID = auto()
     FLUTTER_IOS = auto()
+    FLUTTER_WEB = auto()
 
     SHOREBIRD_ALL = auto()
     SHOREBIRD_ANDROID = auto()

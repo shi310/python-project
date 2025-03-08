@@ -8,6 +8,7 @@ def run() -> BuildType:
         'Flutter 安卓和IOS': BuildType.FLUTTER_ALL,
         'Flutter 安卓': BuildType.FLUTTER_ANDROID,
         'Flutter IOS': BuildType.FLUTTER_IOS,
+        'Flutter Web': BuildType.FLUTTER_WEB,
 
         'Shorebird 安卓和IOS': BuildType.SHOREBIRD_ALL,
         'Shorebird 安卓': BuildType.SHOREBIRD_ANDROID,

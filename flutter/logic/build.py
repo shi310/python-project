@@ -11,7 +11,8 @@ from flutter.logic import (
     update_ios,
     copy_project,
     update_plist,
-    get_build_type
+    get_build_type,
+    update_web,
 )
 from flutter.models.config import BuildConfig
 from flutter.models.build_type import BuildType
@@ -43,11 +44,7 @@ def _prepare_project(works_path: Path, config: BuildConfig) -> Path:
 
 
 def _build_ios(project_path: Path, works_path: Path, config: BuildConfig, environment: str, build_type: BuildType):
-    if build_type in [BuildType.FLUTTER_ANDROID, BuildType.SHOREBIRD_ANDROID, BuildType.PATCH_ANDROID]:
-        return
-    
     """构建 iOS 平台"""
-    cmd.run("flutter pub get", cwd=project_path)
     cmd.run("pod install", cwd=project_path / "ios")
 
     if build_type in [BuildType.FLUTTER_ALL, BuildType.FLUTTER_IOS]:
@@ -65,8 +62,8 @@ def _build_ios(project_path: Path, works_path: Path, config: BuildConfig, enviro
 
 
 def _build_android(project_path: Path, works_path: Path, config: BuildConfig, environment: str, build_type: BuildType):
-    if build_type in [BuildType.FLUTTER_IOS, BuildType.SHOREBIRD_IOS, BuildType.PATCH_IOS]:
-        return
+    # if build_type in [BuildType.FLUTTER_IOS, BuildType.SHOREBIRD_IOS, BuildType.PATCH_IOS]:
+    #     return
     
     """构建 Android 平台"""
     if build_type in [BuildType.FLUTTER_ALL, BuildType.FLUTTER_ANDROID]:
@@ -78,6 +75,21 @@ def _build_android(project_path: Path, works_path: Path, config: BuildConfig, en
 
     if build_type in [BuildType.FLUTTER_ALL, BuildType.FLUTTER_ANDROID, BuildType.SHOREBIRD_ALL, BuildType.SHOREBIRD_ANDROID]:
         _rename_output_file(works_path, project_path, config, "apk", environment.split('=')[-1], build_type)
+
+def _build_web(project_path: Path, works_path: Path, environment: str):
+    """构建 web 平台"""
+    cmd.run(f"flutter build web --release {environment}", cwd=project_path)
+
+    old_path = project_path / "build/web"
+    new_path = works_path / "web"
+
+    if new_path.exists():
+        shutil.rmtree(new_path)
+        consol.succful(f"删除旧项目目录: {new_path}")
+
+    shutil.copytree(old_path, new_path)
+    print(f"✅ 目录复制完成：{old_path} -> {new_path}")
+
 
 
 def _rename_output_file(works_path: Path, project_path: Path, config: BuildConfig, extension: str, environment: str, build_type: BuildType):
@@ -133,14 +145,25 @@ def run(works_path: Path):
         update_assets.run(project_path, works_path / "resource")
         update_android.run(project_path, config, works_path / "resource")
         update_ios.run(project_path, config, works_path / "resource")
+        update_web.run(project_path, works_path / "resource")
+
 
         # 构建所有环境
         build_env = get_build_envs.run()
         build_type = get_build_type.run()
 
         consol.log(f"开始构建环境: {build_env}")
-        _build_ios(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
-        _build_android(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
+        cmd.run("flutter pub get", cwd=project_path)
+
+        if build_type in [BuildType.FLUTTER_ALL, BuildType.FLUTTER_ALL, BuildType.PATCH_ALL]:
+            _build_ios(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
+            _build_android(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
+        elif build_type in [BuildType.FLUTTER_ANDROID, BuildType.SHOREBIRD_ANDROID, BuildType.PATCH_ANDROID]:
+            _build_android(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
+        elif build_type in [BuildType.FLUTTER_IOS, BuildType.SHOREBIRD_IOS, BuildType.PATCH_IOS]:
+            _build_ios(project_path, works_path, config, f"--dart-define=ENVIRONMENT={build_env}", build_type)
+        elif build_type in [BuildType.FLUTTER_WEB]:
+            _build_web(project_path, works_path, f"--dart-define=ENVIRONMENT={build_env}")
 
         consol.succful("✅ 全部构建完成!")
     except Exception as e:
